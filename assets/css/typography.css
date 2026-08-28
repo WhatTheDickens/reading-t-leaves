@@ -522,16 +522,17 @@ BLOCKQUOTE
 blockquote {
   /* Box Model */
   max-width: 80%;
-  margin: var(--spacing-sm) auto;
-  padding: var(--spacing-xs);
+  margin-bottom: 0px; /* var(--spacing-sm) auto; */
+  padding-left: 20px; /* var(--spacing-xs); */
 
   /* Typography */
-  font-size: 120%;
-  font-style: italic;
+  font-size: 100%; /* altered from 120% */
+  font-style: normal; /* altered from italic */
+  color: #686868; /* added */
   quotes: """ """ "'" "'";
 
   /* Visual */
-  border-left: 4px solid var(--text-muted);
+  /* border-left: 2px solid var(--text-muted); */
 }
 
 

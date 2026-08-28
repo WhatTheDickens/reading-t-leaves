@@ -5,12 +5,12 @@ layout: scrollstory
 date: 2025-07-21
 thumbnail: images/forest.jpg
 summary: The kitchen sink of demos. This essay showcases every ScrollStory component — background switching, sticky backgrounds, side-scroll sections, juxtapose comparisons, and more.
-header-image: images/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg
-header-title: The Forest
-header-eyebrow: ScrollStory Demo
+header-image: images/who-owned.jpg
+header-title: Reading &ldquo;T&rdquo; Leaves
+header-eyebrow: A Digital Thoreau Essay
 header-divider: ✦ ✦ ✦
-header-subtitle: every component, one essay
-header-caption: Photo by <a href="https://unsplash.com/@sebastian_unrau">Sebastian Unrau</a> on <a href="https://unsplash.com">Unsplash</a>
+header-subtitle: The <em>Walden</em> manuscript as material artifact
+header-caption: 
 header-position: 0px
 toc-section: piano
 autoscroll: true
@@ -20,10 +20,153 @@ placename: Yellowstone National Park
 tags:
   - music
 ---
+by Paul Schacht and Beth Witherell
 
-This essay uses every ScrollStory component at least once: simple figures and footnotes, scrollyboxes and jumbotrons, background image switching, sticky backgrounds, side-scroll sections, juxtapose comparisons, and the full header system. Read it as a demonstration, or copy any piece of it straight into your own essay.
+The seven extant drafts of *Walden* serve as a record of Thoreau’s revision process. Digital Thoreau's [fluid-text edition of *Walden*](https://digitalthoreau.org/fluid-text-toc) enables readers to compare transcripts of these drafts in order to understand Thoreau's changes to the work's language and organization. 
 
-Notice the header above: it includes an **eyebrow** ("ScrollStory Demo"), a **divider** (the decorative line of symbols), and a **subtitle** below the title. These hero-only fields are set in the front matter:
+The manuscript bears witness not only to Thoreau's evolving conception of *Walden*, however, but also to his manner of work. A transcript alone won't help us understand how Thoreau *made* the work that became *Walden* by, for example, inscribing marks on different pieces of paper in ink and pencil (often in ink over pencil), assembling and disassembling and re-assembling those pieces of paper to form draft after draft, and scribbling lines, symbols, and notes to remind himself how the pages of the last draft should fit into the one before him. 
+
+To put it another way, how did Thoreau handle the task of making *Walden* by handling his manuscript as a thing? This essay is an attempt to begin telling that story, one that would require many more words to tell in full. We explore a few examples of Thoreau's handling to illustrate that the *Walden* manuscript as material artifact is an object of interest in itself.
+
+We also consider who else, besides Thoreau, handled the *Walden* manuscript, since these other handlers have left their mark on it as well&mdash;sometimes in the form of literal markings on the page, scribbles in a hand other than Thoreau's&mdash;and sometimes in the form of the manuscript leaves' physical arrangement.
+
+We begin, in fact, with the story of what happened to the manuscript after Thoreau died.
+
+{% include images/figure.html
+  image-width="100%"
+  caption="Flowchart"
+  image-path="images/who-owned-light.jpg"
+%}
+
+Briefly, all of Thoreau’s manuscripts were inherited by his sister Sophia in Concord, who entrusted them to Bronson Alcott when she moved to Maine in 1873. That was probably the last time they were in the order Thoreau left them in. When she learned that Alcott had allowed Thoreau admirer Franklin Benjamin Sanborn to handle and even borrow manuscript items, Sophia asked Alcott to deposit Thoreau’s manuscripts in the town library (now the Concord Free Public Library) with Ralph Waldo Emerson as trustee. 
+
+On Sophia’s death in 1876 all but Thoreau’s surveys and surveying field notes went, at Sophia’s request, to Thoreau disciple, friend, and correspondent Harrison Gray Otis Blake. Blake held Thoreau’s manuscripts until his death in 1898, and during that time gave some manuscript fragments away. 
+
+In his later years, Blake was taken care of by Worcester school teacher and educational reformer Elias Harlow Russell. Russell inherited the manuscripts from Blake. He then sold several hundred loose manuscript leaves, and the publishing rights to Thoreau’s Journal, to the publisher Houghton Mifflin before selling all but the Journal manuscripts to NY dealer George Sidney Hellman in 1904. 
+
+Hellman re-arranged the manuscripts from whatever was left of their original order, sold perhaps 400 miscellaneous leaves to NY collector William Augustus White, then sold everything else, including the Walden manuscript, to St. Louis book dealer William Keeney Bixby in 1905. Bixby in turn sold the Walden manuscript to Henry E. and Arabella Huntington in 1918, a year before the founding of the Huntington Library in 1919.
+
+At what subsequently became the Huntington Library, Art Museum, and Botanical Gardens, the manuscript of *Walden* is identified as HM 924. 
+
+But HM 924 is not the whole of the Walden manuscript. Those miscellaneous leaves that were sold to Houghton Mifflin included some leaves of the *Walden* manuscript. Houghton Mifflin used the leaves they’d purchased to tip them into the 600 sets of its limited “Manuscript Edition” of 1906, and some of the tipped-in leaves were leaves of Walden.
+
+Over the years, about 50 leaves of Walden have surfaced that are not in HM 924, either because they wound up in Manuscript Edition sets or because they were among some of the other leaves that were sold before the manuscript came to the Huntington. Some of the Walden leaves tipped into Manuscript Edition sets have remained in those sets, but others have been removed and sold separately. There are perhaps 17 libraries and and a number of private collectors who own Walden leaves not in HM 924. 
+
+{% include images/figure.html
+  image-width="100%"
+  caption="Manuscript edition"
+  alt-text="Volumes of a Manuscript Edition of Thoreau's writings"
+  image-path="images/the-manuscript-edition-of-the-writings-of-henry-david-thoreau.jpg"
+%}
+
+{% include images/figure.html
+  image-width="100%"
+  caption="Tipped in manuscript leaf"
+  alt-text="A manuscript leaf tipped in to a volume of a Manuscript Edition"
+  image-path="images/tipped-in-ms-leaf.jpg"
+%}
+
+{% include scrollybox/bg.html
+  height="320vh"
+  image-path="https://hdl.huntington.org/digital/iiif/p16003coll16/17/700,1000,7222,4000/pct:15/0/default.jpg"
+  above-box-space="100vh"
+  below-box-space="120vh"
+  box-align="right"
+  box-content="
+On this page from the A draft of *Walden*, we see Thoreau making changes in ink and pencil. He adds the words *farmer says to me* in ink near the upper left corner and the words *he talks* in ink a little farther down. In pencil, he cancels the word *through* and replaces it with *in spite of*. However, *P. 17*, added in pencil in the upper left, is not in Thoreau's hand but Sanborn's.
+"
+%}
+
+{% include scrollybox/bg.html
+  height="320vh"
+  image-path="https://hdl.huntington.org/digital/iiif/p16003coll16/17/700,4000,7222,5737/pct:15/0/default.jpg"
+  above-box-space="100vh"
+  below-box-space="120vh"
+  box-align="right"
+  box-content="Farther down on the same page, off to the right, Sanborn, has penciled *omit*."
+%}
+
+{% include scrollybox/bg.html
+  height="320vh"
+  image-path="https://hdl.huntington.org/digital/iiif/p16003coll16/18/690,270,7200,5500/pct:15/0/default.jpg"
+  above-box-space="100vh"
+  below-box-space="120vh"
+  box-align="right"
+  box-content="This page from draft A shows several ways Thoreau marked the page: wavy lines in pencil and ink, and an arrow relocating words. The number *7* in the upper right corner is Thoreau's. He paginated ..."
+%}
+
+{% include scrollybox/bg.html
+  height="320vh"
+  image-path="https://hdl.huntington.org/digital/iiif/p16003coll16/1045/580,200,6400,4900/pct:15/0/default.jpg"
+  above-box-space="100vh"
+  below-box-space="120vh"
+  box-align="right"
+  box-content="On this page from draft ..., beneath the second line, immediately following the sentence &quot;He knows nature but as a robber, Thoreau has penciled &quot; *V vnp*. Both the upper-case and lower-case *v* stand for Latin *vide*, meaning *see*. The *np* is for *next page*. Thoreau is indicating that words on the next manuscript page should be inserted at this location. Sometimes Thoreau will write *vlp* to cross-reference words on the previous (last) page. Elsewhere, we find formulations such as *v 2pb* to cross-reference *two pages back*.   Just to the left of *V vnp*, the notation *P. 258* is not in Thoreau's hand and was most likely added by Sanborn. The penciled words written vertically along the left margin are Thoreau's.
+  "
+%}
+
+{% include scrollybox/bg.html
+  height="320vh"
+  image-path="https://hdl.huntington.org/digital/iiif/p16003coll16/1046/749,2853,6900,4900/pct:15/0/default.jpg"
+  above-box-space="100vh"
+  below-box-space="120vh"
+  box-align="right"
+  box-content="Turning to the next page in the manuscript, we see the passage Thoreau's &quot;V vnp&quot; is referencing. It's penciled between inked lines, above &quot;Varro <s>says that</s> the old Romans &hellip;&quot; and near where Sanborn, noting the connection with the previous page, has written &quot;p258.&quot; Thoreau's insertion reads, &quot;Cato calls the profits of agriculture <s>a</s> particularly pious or just (maximeque pius quaestus)&quot;. To the left of the insertion, he's penciled &quot;V L p&quot;, pointing back to the cross-reference on the previous page (&quot;Vide Last page&quot;). Beneath the upper-case &quot;L&quot; is a lower-case &quot;v&quot;, and &quot;&amp;c.&quot;, Thoreau's common abbreviation for &quot;etc.&quot; Below this are some smudged letters that, considering the wording of this passage in the published *Walden*, are probably &quot;acc. to&quot; — an abbreviation for &quot;according to&quot;. A faint penciled line, running from just beneath the last line of inked writing nearly to the name &quot;Cato&quot;, together with a caret, indicates that Thoreau wants to place this entire block of text after the sentence &quot;He knows nature but as a robber&quot; on the previous page. (The darker, wavy penciled line could be either Thoreau's or Sanborn's.) In the published *Walden*, in paragraph 16 of &quot;The Bean-Field,&quot; the sentence &quot;He knows Nature but as a robber&quot; is indeed followed immediately by &quot;Cato says that the profits of agriculture are particularly pious or just, (*maximeque pius quæstus*,) and according to Varro the old Romans &hellip;&quot;
+  "
+%}
+
+Here's closer look at Thoreau's inserted text.
+
+{% include images/figure.html
+  image-width="100%"
+  caption="Caption here."
+  alt-text="A portion of the manuscript page showing Thoreau's penciled insertion"
+  image-path="https://hdl.huntington.org/digital/iiif/p16003coll16/1046/1700,4750,2000,1000/full/0/default.jpg"
+%}
+
+Let's return to the previous page to see look in more detail at what Thoreau wrote in the left margin there.
+
+<!-- <iframe src="https://cdl-geneseo.github.io/waldenms/uv.html#?manifest=https://cdm16003.contentdm.oclc.org/iiif/info/p16003coll16/1045/manifest.json&#038;c=0&#038;m=0&#038;cv=0&#038;config=&#038;locales=en-GB:English (GB),cy-GB:Cymraeg,fr-FR:Français (FR),pl-PL:Polski,sv-SE:Svenska&#038;r=0" width="560" height="600" allowfullscreen frameborder="0"></iframe> -->
+
+{% include images/figure.html
+  image-width="100%"
+  caption="Manuscript image 1045, rotated 90 degrees. Click to get a closer view."
+  alt-text="A portion of the manuscript page showing Thoreau's penciled insertion"
+  image-path="https://hdl.huntington.org/digital/iiif/p16003coll16/1045/667,565,750,8680/full/90/default.jpg"
+%}
+
+There are two sentences here, each preceded by a number. Thoreau frequently uses such numbering to reorder material in his drafts.
+
+> 2) The ear of grain (spica obsol. <u>speca</u> from <u>spe</u> hope) should not be the only hope of the husbandman.    
+> 1) Do they not grow for woodchucks partly?
+
+Two lines from the bottom of the page, where Thoreau's vertical insertion begins, we can see that he's first inserted, with a caret following &quot;me&quot;, &quot;Shall I not rejoice also at the abundance of the weeds, whose seeds are the granary of the birds?&quot; Another caret, in pencil, is connected to a line in the left margin that extends to where the vertical insertion begins.
+
+{% include images/figure.html
+  image-width="100%"
+  caption="Bottom two lines of Image 1045."
+  alt-text="A portion of the manuscript page showing Thoreau's penciled insertion"
+  image-path="https://hdl.huntington.org/digital/iiif/p16003coll16/1045/750,7128,6400,2000/pct:15/0/default.jpg"
+%}
+
+The published version of "The Bean-Field," paragraph 17, incorporates Thoreau's insertions in his specified order:
+
+> These beans have results which are not harvested by me. Do they not grow for woodchucks partly? The ear of wheat, (in Latin *spica*, obsoletely *speca*, from *spe*, hope,) should not be the only hope of the husbandman; its kernel or grain (*granum* from *gerendo*, bearing) is not all that it bears. How, then, can our harvest fail? Shall I not rejoice also at the abundance of the weeds whose seeds are the granary of the birds?
+
+
+
+<!-- 
+{% include scrollybox/bg.html
+  height="320vh"
+  image-path="https://hdl.huntington.org/digital/iiif/p16003coll16/1045/750,7128,6400,3500/pct:15/0/default.jpg"
+  above-box-space="100vh"
+  below-box-space="120vh"
+  box-align="right"
+  box-content="Two lines from the bottom of the page, where Thoreau's vertical insertion begins, we can see that he's first inserted, with a caret following &quot;me&quot;, &quot;Shall I not rejoice also at the abundance of the weeds, whose seeds are the granary of the birds?&quot; Another caret, in pencil, is connected to a line in the left margin that extends to where the vertical insertion begins.
+  "
+%}
+
+-->
 
 ```yaml
 header-eyebrow: ScrollStory Demo
@@ -79,20 +222,14 @@ The `starting-position="35%"` shifts the slider so readers don't start at the de
 The **sticky background** is similar to a scrollybox but uses CSS `position: sticky` instead of `background-attachment: fixed`. The visual effect is subtly different — the image scrolls *with* you until it reaches the top of the viewport, then sticks while content continues past it.
 
 {% include scrollybox/bg-sticky.html
-  image-path="images/misty-forest.jpg"
+  image-path="https://hdl.huntington.org/digital/iiif/p16003coll16/903/full/pct:30/0/default.jpg"
   height="100vh"
   above-box-space="50vh"
   below-box-space="80vh"
   box-align="right"
   box-content="
-**Sticky background with right-aligned text box.**
 
-This works like a standard scrollybox but uses a different CSS technique. The image feels more grounded — it moves with the page before locking into place.
-
-Use `bg-sticky` when:
-- You want the image to arrive with the scroll rather than being revealed behind content
-- You need more reliable behavior on mobile devices
-- The sticky \"lock-in\" moment adds to your narrative
+  When Thoreau died, his sister Sophia inherited his manuscripts.
 "
 %}
 
@@ -172,7 +309,7 @@ The next section uses a basic scrollybox. Keep scrolling to see text overlay a f
 
 {% include scrollybox/bg.html
   height="320vh"
-  image-path="images/tree-canopy-up.jpg"
+  image-path="https://hdl.huntington.org/digital/iiif/p16003coll16/903/281,295,2392,1850/pct:30/0/default.jpg"
   above-box-space="100vh"
   below-box-space="120vh"
   box-align="right"

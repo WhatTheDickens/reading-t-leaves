@@ -72,6 +72,7 @@ PAGE SETUP & CUSTOMIZATION
   --golden-clay-dark: #8b6f47;  /* Darker warm clay for headings */
   --amber: #f59e0b;        /* Bright amber */
   --trail-red: #8c2f10;    /* Route lines over pale map scans, where clay and sage both vanish */
+  --geneseo-blue: #365090; /* Added */
 
   /* ===== SEMANTIC COLOR SYSTEM ===== */
   /* Backgrounds */
@@ -156,7 +157,7 @@ PAGE SETUP & CUSTOMIZATION
   --text-muted: #666;
 
   /* Accents & Interactive */
-  --accent-primary: var(--sage);
+  --accent-primary: var(--geneseo-blue); /* formerly sage */
   --accent-border: var(--golden-clay);
   --interactive-hover: var(--amber);
   --interactive-hover-bg: var(--interactive-hover);
